@@ -24,14 +24,14 @@ import {SingleDataHandler} from "./handlers/SingleDataHandler";
  * How to create and use this controller is introduce in API document and shown in demos.
  */
 
-function Controller ( container, configureObject ) {
+function Controller (container, configureObject) {
 
     // constructor parameters
 
     this.container = container;
     this.constructorConfigure = configureObject;
 
-    // configure object
+    // // configure object
 
     this.configure = new Configure();
 
@@ -56,7 +56,7 @@ function Controller ( container, configureObject ) {
 
     // configure "configure object" through constructor configure
 
-    this.configureHandler.configureConstructor();
+    // this.configureHandler.configureConstructor();
 
     // important components, they will be initialized when initHandler is called
 
